@@ -1,12 +1,12 @@
 body {
-  background: #eeeeee;
+  background: #50404d;
   font-family: "Lustria", "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
   font-size: 14px;
   line-height: 18px;
-  color: #222222;
+  color: #FBF6D9;
 }
 a {
-  color: #2f84c2;
+  color: #ffc87c;
 }
 a:hover {
   color: #2a76ad;
