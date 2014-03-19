@@ -4,8 +4,6 @@ date: 2014-03-19 16:21 UTC
 tags:
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel eleifend sapien. Nam non sapien bibendum, ultrices ipsum in, bibendum mi. In eleifend eu orci ac mattis. Vivamus tristique est vitae purus auctor, in euismod augue ultrices. Nulla sed velit eu massa consectetur tempor eget non neque. Fusce aliquet lorem ut risus imperdiet, vitae ultricies dui porttitor. Mauris iaculis convallis pharetra. Aliquam erat volutpat. In posuere, augue ac pellentesque egestas, purus metus elementum felis, vel mollis quam metus lobortis metus. In pretium lacus vel tellus convallis porttitor. Duis aliquet sagittis cursus. Phasellus purus magna, interdum laoreet nisl ut, cursus interdum sapien. Morbi iaculis placerat risus eget vestibulum. Duis egestas vulputate sem eget pretium. Sed non ultricies nibh. Nam sed iaculis tellus.
-
-Vestibulum eu turpis sem. Donec dignissim ligula a diam euismod vehicula. Maecenas ipsum est, tincidunt at lorem in, elementum posuere lacus. Aenean fringilla ligula elit, at vulputate erat porttitor ut. Vivamus condimentum ac mi ac vestibulum. Vestibulum turpis urna, pellentesque eu hendrerit vel, vehicula nec nisl. Ut adipiscing nisl ut augue faucibus rhoncus et quis tellus. Nunc tristique ultricies turpis, vel lacinia purus eleifend a. Donec odio urna, tempus nec imperdiet faucibus, facilisis a mi. Aliquam fermentum, risus id hendrerit luctus, mi sapien molestie tortor, sit amet cursus nunc diam ut tortor. Cras id viverra arcu. Nullam id lacus a massa accumsan ornare. Sed nec odio eleifend, posuere ligula rhoncus, pulvinar dolor. Vivamus porttitor elit in risus volutpat, id semper ipsum iaculis. Ut eu consequat urna.
-
-Etiam ac nunc tincidunt mi scelerisque vehicula. Nulla fermentum, massa euismod varius interdum, felis orci tempus diam, a sollicitudin dui diam eget neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean dignissim augue nec viverra hendrerit. In vulputate felis in velit ultricies, vestibulum vehicula lorem iaculis. In elit ligula, tincidunt nec luctus quis, feugiat lacinia ligula. Fusce vitae semper sapien. Integer varius magna quis nibh semper, in tempor erat feugiat.
+Nightmares continue
+Me, the ruby n00b becomes
+The ruby nudist
