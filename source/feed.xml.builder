@@ -2,9 +2,9 @@ xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   xml.title "Jenny's gSchool Blog"
   xml.subtitle "gSchool Boulder 2014"
-  xml.id "http://jennydevelopsit.herokuapp.com/"
-  xml.link "href" => "http://jennydevelopsit.herokuapp.com/"
-  xml.link "href" => "http://jennydevelopsit.herokuapp.com/feed.xml", "rel" => "self"
+  xml.id "http://jennydevelopsit.it/"
+  xml.link "href" => "http://jennydevelops.it/"
+  xml.link "href" => "http://jennydevelopsit.it", "rel" => "self"
   xml.updated blog.articles.first.date.to_time.iso8601
   xml.author { xml.name "Jenny Allar" }
 
