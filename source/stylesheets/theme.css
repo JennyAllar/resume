@@ -1,6 +1,6 @@
 body {
   background: #50404d;
-  font-family: "Lustria", "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
+  font-family: "Andale Mono", AndaleMono, monospace;
   font-size: 14px;
   line-height: 18px;
   color: #F7EFEF;
@@ -9,7 +9,7 @@ a {
   color: #ffc87c;
 }
 a:hover {
-  color: #2a76ad;
+  color: #141414;
 }
 header {
   padding: 3em 0px 3em 0px;
@@ -54,7 +54,7 @@ h6,
   border-bottom: 4px solid #a2a2a2;
 }
 .top-nav {
-  background: #141414;
+  background: #;
   height: 2.5em;
   line-height: 2.5em;
 }
@@ -76,10 +76,10 @@ a.logo:hover {
   border-top: 4px solid #ededed;
 }
 div.panel {
-  background: #efefef;
-  background: -moz-linear-gradient(top, #e5e5e5 0%, #dedede 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5e5e5), color-stop(100%, #dedede));
-  background: -o-linear-gradient(top, #e5e5e5 0%, #dedede 100%);
+  background: #708090;
+  background: -moz-linear-gradient(top, #708090 0%, #708090 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #708090), color-stop(100%, #708090));
+  background: -o-linear-gradient(top, #708090 0%, #708090 100%);
 }
 .blue.button {
   background-color: #2f84c2;
