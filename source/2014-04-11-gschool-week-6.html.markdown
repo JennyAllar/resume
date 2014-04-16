@@ -18,6 +18,6 @@ prepared for my first ever lightning talk. It was a terrifiying experience becau
 speaking in public. However, once the lightning talk was finished, it was nice to add one more accomplishment to my
 ever growing tool bag of developer skills. I now know that public speaking is a skill that might one day set one
 developer apart from another. It's just one more thing I'd like to work on and polish as I become more comfortable with
-my skillset.
+my skill set.
 
 
