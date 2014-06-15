@@ -13,7 +13,14 @@ BASE (MOBILE) SIZE
 	Remember, keep it light: Speed is Important.
 */
 
-/* typography */
+/* typography
+ font-family: 'Pompiere', cursive;
+ font-family: 'Covered By Your Grace', cursive;
+ font-family: 'Special Elite', cursive;
+ font-family: 'Changa One', cursive;
+*/
+
+
 body{
 	background:#fff;
 	color:#666;
@@ -22,13 +29,21 @@ body{
 	line-height:1.4em; 
 	font-weight:normal;
 }
-h1, h2, h3, h4, h5, h6{
+h3, h4, h5, h6{
 	font-weight:400;
 	font-family:'Oswald', Arial, Helvetica, sans-serif; 
 	line-height:1.5em;
 	margin:.45em 0;
 	padding:0;
 } 
+
+h2 {
+    font-family: 'Pompiere', cursive;
+}
+
+h1 {
+    font-family: 'Covered By Your Grace', cursive;
+}
 
 /* links */
 a,
@@ -182,6 +197,7 @@ footer ul{
 
 /*Some more colored elements*/
 a.buttonlink{ 
+    font-family: 'Special Elite', cursive;
 	background:#BF4D28; 
 	border-radius:7px; 
 	color:#fff;
@@ -442,7 +458,7 @@ you can add resource intensive styles.
 */
 @media only screen and (min-width: 1024px) {
 #hero .grid_4 { width: 30%; }
-#hero h1{ font-size:1.4em;}
+#hero h1{ font-size:2.4em;}
 #hero .grid_8 { width: 63.333333333333%; margin:0 1.6666666666667%; }
 } 
 
