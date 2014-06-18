@@ -75,6 +75,9 @@
 
 <!-- header area -->
 <header class="wrapper clearfix">
+  <script src="<%= asset_path "/galleria-1.3.5.min.js" %>" ></script>
+  <script src="<%= asset_path "/galleria.flickr.min.js" %>" ></script>
+  <script src="<%= asset_path "/galleria.classic.min.js" %>" ></script>
 
   <div id="banner">
     <div id="logo"><%= image_tag("resumelogo.png", height: '10') %></div>
@@ -135,6 +138,8 @@
       <p><a href="#" class="buttonlink">EMAIL ME</a> <a href="#" class="buttonlink">MY CODE</a></p>
     </div>
     <div class="grid_8 omega rightfloat">
+      <h1>Displaying Photos</h1>
+      
       <!-- responsive FlexSlider image slideshow -->
       <div class="flexslider">
         <ul class="slides">
@@ -271,7 +276,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="libs/jquery-1.9.0.min.js">\x3C/script>')</script>
 
-<script defer src="../../../../../Downloads/simple-master/js/flexslider/jquery.flexslider-min.js"></script>
+<script defer src="flexslider/jquery.flexslider-min.js"></script>
 
 <!-- fire ups - read this file!  -->
 <script src="main.js"></script>
