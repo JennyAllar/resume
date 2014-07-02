@@ -5,7 +5,7 @@
       <!DOCTYPE html>
       <html>
       <head>
-        <title>The Picture Closet</title>
+        <title>Jenny Allar</title>
         <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
         <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
         <%= csrf_meta_tags %>
@@ -17,7 +17,7 @@
       <header>
         <div id="header_container">
           <div id="header_logo">
-            <%= link_to image_tag("NewPictureClosetLogo.png"), root_path %>
+            <%= link_to image_tag("topbanner.png"), root_path %>
           </div>
 
         </div>
@@ -30,11 +30,10 @@
         <div id="nav_container">
 
           <ul id="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Relatives</a></li>
-            <li><a href="#">Contact</a></li>
+            <%= link_to image_tag("github.png", :size => "156x50"), "https://github.com/JennyAllar" %>
+            <%= link_to image_tag("twitter.png", :size => "156x50"), "https://twitter.com/JennyAllar" %>
+            <%= link_to image_tag("email.png", :size => "244x50"), "mailto:jennyallar@gmail.com?subject=You're Amazing!" %>
+            <%= link_to image_tag("linkedin.png", :size => "175x50"), "https://www.linkedin.com/in/JennyAllar" %>
           </ul>
         </div>
         <!--end navigation-->

@@ -31,30 +31,34 @@
 
 
 body {
-    background-color:#BD5532;
+    background-color:#e0e4cc;
 
 }
 
 
 #header_container,
 #nav_container,
-#content_container,
 #footer_container {
     margin: auto;
     width: 960px;
 }
 
+#content_container {
+    margin: auto;
+    width: 910px;
+}
+
 header {
-    background-color: #373B44;
+    background-color: #e0e4cc;
 }
 
 nav {
-    background-color: #BD5532;
+    background-color: #e0e4cc;
     overflow: hidden;
 }
 
 #content {
-    background-color: #E1B866;
+    background-color: #e0e4cc;
 }
 
 
