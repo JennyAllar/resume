@@ -31,7 +31,7 @@
 
 
 body {
-    background-color:#e0e4cc;
+    background: url(//subtlepatterns.com/patterns/tweed.png);
 
 }
 
@@ -41,11 +41,17 @@ body {
 #footer_container {
     margin: auto;
     width: 960px;
+    background: url(//subtlepatterns.com/patterns/tweed.png);
+
+
 }
 
 #content_container {
     margin: auto;
     width: 910px;
+    background-color: #e0e4cc;
+    padding-top: 100px;
+
 }
 
 header {
@@ -57,8 +63,12 @@ nav {
     overflow: hidden;
 }
 
-#content {
-    background-color: #e0e4cc;
+nav img {
+    margin-right: 40px;
+}
+
+#content img {
+    margin: 0 auto;
 }
 
 
