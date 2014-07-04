@@ -35,6 +35,11 @@ body {
 
 }
 
+.banner {
+    margin: auto;
+    width: 1090px;
+}
+
 
 #header_container,
 #nav_container,
@@ -61,10 +66,12 @@ header {
 nav {
     background-color: #e0e4cc;
     overflow: hidden;
+    width: 910px;
+    margin: 0 auto;
 }
 
 nav img {
-    margin-right: 40px;
+    padding-right: 5.4%;
 }
 
 #content img {
@@ -122,7 +129,6 @@ footer {
 
 
 #menu {
-    float: right; /* or float: left */
     margin: 0 10px 0 0;
 }
 
