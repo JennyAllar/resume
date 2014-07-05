@@ -40,6 +40,11 @@ body {
     width: 1090px;
 }
 
+.banner_1 {
+    margin-left: -1.9%;
+    width: 950px;
+}
+
 
 #header_container,
 #nav_container,
