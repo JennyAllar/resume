@@ -22,10 +22,9 @@
 /* line 17, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 
 /* typography
- font-family: 'Pompiere', cursive;
- font-family: 'Covered By Your Grace', cursive;
- font-family: 'Special Elite', cursive;
- font-family: 'Changa One', cursive;
+font-family: 'BenchNine', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Prata', serif;
 */
 
 
@@ -45,6 +44,13 @@ body {
     width: 950px;
 }
 
+#intro {
+    font-family: 'BenchNine', sans-serif;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-size: 2em;
+}
+
 
 #header_container,
 #nav_container,
@@ -60,7 +66,7 @@ body {
     margin: auto;
     width: 910px;
     background-color: #e0e4cc;
-    padding-top: 100px;
+    padding-top: 2%;
 
 }
 

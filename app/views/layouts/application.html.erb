@@ -1,85 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jenny Allar</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href="../../../../../Downloads/6_navigation_2/style.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+  <link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700|Rock+Salt|Prata' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header>
+  <div id="header_container">
+    <div id="header_logo">
+    </div>
+
+  </div>
+  <!--end header-->
+  <p class="navbar-text pull-right">
+
+</header>
 
 
-      
+<div class="banner">
+  <%= link_to image_tag("topbanner.png", :size => "1090x100"), root_path %>
+</div>
+<nav>
+  <div id="nav_container">
 
-      <!DOCTYPE html>
-      <html>
-      <head>
-        <title>Jenny Allar</title>
-        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-        <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-        <%= csrf_meta_tags %>
-        <link href="../../../../../Downloads/6_navigation_2/style.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-      </head>
-      <body>
+    <ul id="menu">
+      <%= link_to image_tag("github.png", :size => "156x50"), "https://github.com/JennyAllar" %>
+      <%= link_to image_tag("twitter.png", :size => "156x50"), "https://twitter.com/JennyAllar" %>
+      <%= link_to image_tag("email.png", :size => "244x50"), "mailto:jennyallar@gmail.com?subject=You're Amazing!" %>
+      <%= link_to image_tag("linkedin.png", :size => "175x50"), "https://www.linkedin.com/in/JennyAllar" %>
+    </ul>
+  </div>
+  <!--end navigation-->
+</nav>
+<div id="content">
 
-      <header>
-        <div id="header_container">
-          <div id="header_logo">
-          </div>
+  <div id="content_container">
+    <div id="intro">
+      I'm a Ruby on Rails developer looking to work in an environment with other developers who are excited about
+        the code they write, find pride in their work, and value strong communcation skills. An organization that
+        promotes
+        further education and advancement would be ideal at this early stage in my development career.
+    </div>
+    <div class="banner_1">
+      <%= link_to image_tag("Projects_banner.png", :size => "150x75"), root_path %>
+    </div>
 
-        </div>
-        <!--end header-->
-        <p class="navbar-text pull-right">
+    <div class="banner_1">
+      <%= link_to image_tag("Experience_banner.png", :size => "150x75"), root_path %>
+    </div>
 
-      </header>
+    <div class="banner_1">
+      <%= link_to image_tag("Education_banner.png", :size => "150x75"), root_path %>
+    </div>
 
-      
-      <div class="banner">
-      <%= link_to image_tag("topbanner.png", :size => "1090x100"), root_path %>
-      </div>
-      <nav>
-        <div id="nav_container">
+    <div class="banner_1">
+      <%= link_to image_tag("Additional_banner.png", :size => "150x75"), root_path %>
+    </div>
+  </div>
 
-          <ul id="menu">
-            <%= link_to image_tag("github.png", :size => "156x50"), "https://github.com/JennyAllar" %>
-            <%= link_to image_tag("twitter.png", :size => "156x50"), "https://twitter.com/JennyAllar" %>
-            <%= link_to image_tag("email.png", :size => "244x50"), "mailto:jennyallar@gmail.com?subject=You're Amazing!" %>
-            <%= link_to image_tag("linkedin.png", :size => "175x50"), "https://www.linkedin.com/in/JennyAllar" %>
-          </ul>
-        </div>
-        <!--end navigation-->
-      </nav>
-      <div id="content">
+</div>
+<!--end content_container-->
+</div>
+<!--end content-->
 
-        <div id="content_container">
-
-          <p><h2>I'm a Ruby on Rails developer looking to work in an environment with other developers who are excited about
-          the code they write, find pride in their work, and value strong communcation skills. An organization that promotes
-          further education and advancement would be ideal at this early stage in my development career.</h2>
-          
-          <div class="banner_1">
-          <%= link_to image_tag("Projects_banner.png", :size => "150x75"), root_path %>
-          </div>
-
-        <div class="banner_1">
-          <%= link_to image_tag("Experience_banner.png", :size => "150x75"), root_path %>
-        </div>
-
-        <div class="banner_1">
-          <%= link_to image_tag("Education_banner.png", :size => "150x75"), root_path %>
-        </div>
-
-        <div class="banner_1">
-          <%= link_to image_tag("Additional_banner.png", :size => "150x75"), root_path %>
-        </div>
-        </div>
-
-      </div>
-        <!--end content_container-->
-      </div>
-      <!--end content-->
-
-      <footer>
-        <div id="footer_container">
+<footer>
+  <div id="footer_container">
 
 
+  </div>
+  <!--end footer_container-->
+</footer>
 
-        </div>
-        <!--end footer_container-->
-      </footer>
-
-      </body>
-      </html>      
+</body>
+</html>      
  
