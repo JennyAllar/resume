@@ -179,7 +179,7 @@ nav img {
 }
 
 footer {
-    background-color: #73C8A9;
+    background: url(//subtlepatterns.com/patterns/tweed.png);
 }
 
 /* ----- =columns ----- */
@@ -242,7 +242,7 @@ footer {
 
 #menu li a:hover {
     color: #fff;
-    background-color: #5ACDB0;
+    background: url(//subtlepatterns.com/patterns/tweed.png);
 }
 
 /*Borders between each button */
@@ -319,11 +319,39 @@ footer {
     vertical-align: top;
 }
 
+.company_2 {
+    font-family: 'BenchNine', sans-serif;
+    width: 900px;
+    padding-left: 3%;
+    font-size: 2em;
+    line-height: 60px;
+}
+
+.company_2 text {
+    padding-left: 3%;
+
+}
+
+.company_2 img {
+    width: 200px;
+}
+
+.company_2 a {
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
+
 #location_jobs {
     font-family: 'Rock Salt', cursive;
     color: #2faaaf;
     padding-left: 3%;
     padding-top: 2%;
+}
+
+#test {
+    margin-top: -7.5%;
+    margin-left: 25%
 }
 
 
