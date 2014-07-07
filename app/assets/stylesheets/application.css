@@ -59,17 +59,75 @@ body {
 
 .title {
     font-family: 'Prata', serif;
-    width: 400px;
+    width: 900px;
     margin: 0 auto float : left;
     padding-left: 3%;
     font-size: 2.5em;
+    line-height: 100px;
+
+}
+
+.title text {
+    vertical-align: middle;
+
+}
+
+.title img {
+    width: 300px;
+}
+
+.title_1 {
+    font-family: 'Prata', serif;
+    width: 900px;
+    padding-left: 3%;
+    font-size: 2.5em;
+    line-height: 54px;
+    vertical-align: top;
+    margin-bottom: -2%;
+    
+}
+
+.title_1 text {
+    vertical-align: middle;
+
+}
+
+.title_1 img {
+    width: 200px;
+}
+
+.title_2 {
+    font-family: 'Prata', serif;
+    width: 900px;
+    padding-left: 3%;
+    font-size: 2.5em;
+    line-height: 70px;
+    vertical-align: top;
+    overflow: hidden;
+    margin-bottom: -3%;
+
+}
+
+.title_2 text {
+    vertical-align: middle;
+
+}
+
+.title_2 img {
+    width: 70px;
+}
+
+#location {
+    font-family: 'Rock Salt', cursive;
+    color: #2faaaf;
+    padding-left: 3%;
 }
 
 .subtitle {
     font-family: 'Prata', serif;
     width: 600px;
     margin: 0 auto;
-    float : left;
+    float: left;
     padding-left: 3%;
     font-size: 1em;
 }
