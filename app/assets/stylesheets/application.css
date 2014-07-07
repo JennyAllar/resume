@@ -49,6 +49,14 @@ body {
     font-size: 2em;
 }
 
+.used {
+    font-family: 'Rock Salt', cursive;
+    padding-left: 3%;
+    font-size: 1em;
+    float: left;
+    color: #2faaaf;
+}
+
 .title {
     font-family: 'Prata', serif;
     width: 400px;
