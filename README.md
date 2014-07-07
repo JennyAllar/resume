@@ -1,1 +1,1 @@
-![Fun Gif](http://i.imgur.com/SC7Tqjs.jpg)
+![Fun Gif](http://i.imgur.com/rM8AYOq.png)
