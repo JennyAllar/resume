@@ -125,7 +125,7 @@ body {
 
 .subtitle {
     font-family: 'Prata', serif;
-    width: 600px;
+    width: 95%;
     margin: 0 auto;
     float: left;
     padding-left: 3%;
@@ -277,6 +277,52 @@ footer {
 .project img:hover {
     width: 700px;
     height: 400px;
+}
+
+
+.company {
+    font-family: 'BenchNine', sans-serif;
+    width: 900px;
+    padding-left: 3%;
+    font-size: 2em;
+    line-height: 60px;
+}
+
+.company text {
+    vertical-align: middle;
+
+}
+
+.company img {
+    width: 60px;
+    padding-left: 3%;
+    vertical-align: top;
+}
+
+.company_1 {
+    font-family: 'BenchNine', sans-serif;
+    width: 900px;
+    padding-left: 3%;
+    font-size: 2em;
+    line-height: 60px;
+}
+
+.company_1 text {
+    vertical-align: middle;
+
+}
+
+.company_1 img {
+    width: 150px;
+    padding-left: 3%;
+    vertical-align: top;
+}
+
+#location_jobs {
+    font-family: 'Rock Salt', cursive;
+    color: #2faaaf;
+    padding-left: 3%;
+    padding-top: 2%;
 }
 
 
