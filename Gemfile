@@ -17,3 +17,5 @@ gem "redcarpet", "~>3.0.0"
 gem "pygments.rb", "~> 0.5.4"
 
 gem "middleman-favicon-maker", "~> 3.5"
+
+gem 'newrelic_rpm'
