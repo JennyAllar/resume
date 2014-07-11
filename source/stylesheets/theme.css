@@ -70,6 +70,8 @@ body {
 .used {
     font-family: 'Rock Salt', cursive;
     padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-size: 1em;
     float: left;
     color: #2faaaf;
@@ -102,6 +104,7 @@ body {
     line-height: 54px;
     vertical-align: top;
     margin-bottom: -2%;
+    padding-top: 3%;
 
 }
 
@@ -139,6 +142,7 @@ body {
     font-family: 'Rock Salt', cursive;
     color: #2faaaf;
     padding-left: 3%;
+    padding-bottom: 1%;
 }
 
 .subtitle {
@@ -147,7 +151,7 @@ body {
     margin: 0 auto;
     float: left;
     padding-left: 3%;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .project_img {
@@ -313,7 +317,7 @@ footer {
 }
 
 .company img {
-    width: 60px;
+    width: 80px;
     padding-left: 3%;
     vertical-align: top;
 }
@@ -369,5 +373,6 @@ footer {
 
 #test {
     margin-top: -7.5%;
-    margin-left: 25%
+    margin-left: 25%;
+    font-size: 1em;
 }
