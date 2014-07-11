@@ -25,3 +25,15 @@
 [07/10/14 22:49:48 -0600 Jennys-MacBook-Air-2.local (10299)] INFO : Reporting to: https://rpm.newrelic.com/accounts/714697/applications/6133658
 [07/10/14 22:49:57 -0600 Jennys-MacBook-Air-2.local (10299)] INFO : Doing deferred dependency-detection before Rack startup
 [07/10/14 23:00:07 -0600 Jennys-MacBook-Air-2.local (10299)] INFO : Starting Agent shutdown
+[07/11/14 11:50:40 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : Starting the New Relic agent in "development" environment.
+[07/11/14 11:50:40 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/11/14 11:50:40 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : Reading configuration from config/newrelic.yml
+[07/11/14 11:50:40 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : Environment: development
+[07/11/14 11:50:40 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : No known dispatcher detected.
+[07/11/14 11:50:40 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : Application: My Application (Development)
+[07/11/14 11:50:40 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : Installing Net instrumentation
+[07/11/14 11:50:40 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : Installing deferred Rack instrumentation
+[07/11/14 11:50:40 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : Installing Rack::Builder middleware instrumentation
+[07/11/14 11:50:40 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : Finished instrumentation
+[07/11/14 11:50:40 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : Reporting to: https://rpm.newrelic.com/accounts/714697/applications/6133658
+[07/11/14 11:50:50 -0600 Jennys-MacBook-Air-2.local (18203)] INFO : Doing deferred dependency-detection before Rack startup
