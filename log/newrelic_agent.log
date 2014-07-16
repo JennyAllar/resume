@@ -95,3 +95,15 @@
 [07/15/14 17:58:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
 [07/15/14 18:00:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
 [07/15/14 18:00:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 18:04:39 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : Unable to send metric_data data, will try again later. Error: 
+[07/15/14 18:04:39 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-121.newrelic.com:443: execution expired
+[07/15/14 18:05:54 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[07/15/14 18:05:54 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-121.newrelic.com:443: Operation timed out - connect(2)
+[07/15/14 18:06:23 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 18:06:23 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[07/15/14 18:08:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 18:08:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 18:10:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 18:10:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 18:11:03 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : Starting Agent shutdown
+[07/15/14 18:11:13 -0600 Jennys-MacBook-Air-2.local (76654)] WARN : Timed out opening connection to collector after 10.002121 seconds. If this problem persists, please see http://status.newrelic.com
