@@ -62,3 +62,36 @@
 [07/15/14 11:12:22 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : Finished instrumentation
 [07/15/14 11:12:23 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : Reporting to: https://rpm.newrelic.com/accounts/714697/applications/6133658
 [07/15/14 11:12:38 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : Doing deferred dependency-detection before Rack startup
+[07/15/14 12:17:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 12:17:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 16:31:59 -0600 Jennys-MacBook-Air-2.local (76654)] WARN : Timed out opening connection to collector after 120.018632 seconds. If this problem persists, please see http://status.newrelic.com
+[07/15/14 16:31:59 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 16:31:59 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Timeout::Error: execution expired
+[07/15/14 16:32:23 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 16:32:23 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[07/15/14 17:06:39 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 17:06:39 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 17:08:43 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 17:08:43 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[07/15/14 17:11:57 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : Unable to send metric_data data, will try again later. Error: 
+[07/15/14 17:11:57 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : RuntimeError: Server Error (IOException): java.util.concurrent.TimeoutException: Idle timeout expired: 20000/20000 ms
+[07/15/14 17:13:57 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[07/15/14 17:13:57 -0600 Jennys-MacBook-Air-2.local (76654)] INFO : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-121.newrelic.com:443: execution expired
+[07/15/14 17:44:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 17:44:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 17:46:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 17:46:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 17:48:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 17:48:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 17:50:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 17:50:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 17:52:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 17:52:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 17:54:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 17:54:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 17:56:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 17:56:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 17:58:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 17:58:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
+[07/15/14 18:00:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Error running task in Agent Worker Loop:
+[07/15/14 18:00:38 -0600 Jennys-MacBook-Air-2.local (76654)] ERROR : Errno::ETIMEDOUT: Operation timed out - connect(2)
