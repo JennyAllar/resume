@@ -1,0 +1,386 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+
+/* typography
+font-family: 'BenchNine', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Prata', serif;
+*/
+
+body {
+    background: url(//subtlepatterns.com/patterns/tweed.png);
+
+}
+
+.banner {
+    margin: auto;
+    width: 1090px;
+}
+
+.banner img {
+    width: 1090px;
+    height: 100px;
+}
+
+.banner_1 {
+    margin-left: -1.9%;
+    width: 950px;
+    margin-top: 8%;
+}
+
+.banner_1 img {
+    width: 150px;
+    height: 75px;
+}
+
+.banner_2 {
+    margin-left: -1.9%;
+    width: 950px;
+}
+
+.banner_2 img {
+    width: 150px;
+    height: 75px;
+}
+
+#intro {
+    font-family: 'BenchNine', sans-serif;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-size: 2em;
+}
+
+.used {
+    font-family: 'Rock Salt', cursive;
+    padding-left: 3%;
+    padding-top: 1%;
+    font-size: 1em;
+    float: left;
+    color: #2faaaf;
+}
+
+.link {
+    font-family: 'Rock Salt', cursive;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    font-size: 1em;
+    float: left;
+    color: #2faaaf;
+}
+
+.title {
+    font-family: 'Prata', serif;
+    width: 900px;
+    margin: 0 auto float : left;
+    padding-left: 3%;
+    font-size: 2.5em;
+    line-height: 75px;
+
+}
+
+.title text {
+    vertical-align: bottom;
+
+}
+
+.title img {
+    width: 300px;
+}
+
+.title_1 {
+    font-family: 'Prata', serif;
+    width: 900px;
+    padding-left: 3%;
+    font-size: 2.5em;
+    line-height: 54px;
+    vertical-align: top;
+    margin-bottom: -2%;
+    padding-top: 3%;
+
+}
+
+.title_1 text {
+    vertical-align: middle;
+
+}
+
+.title_1 img {
+    width: 200px;
+}
+
+.title_2 {
+    font-family: 'Prata', serif;
+    width: 900px;
+    padding-left: 3%;
+    font-size: 2.5em;
+    line-height: 70px;
+    vertical-align: top;
+    overflow: hidden;
+    margin-bottom: -3%;
+
+}
+
+.title_2 text {
+    vertical-align: middle;
+
+}
+
+.title_2 img {
+    width: 70px;
+}
+
+#location {
+    font-family: 'Rock Salt', cursive;
+    color: #2faaaf;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+
+.subtitle {
+    font-family: 'Prata', serif;
+    width: 95%;
+    margin: 0 auto;
+    float: left;
+    padding-left: 3%;
+    font-size: 1.5em;
+}
+
+.project_img {
+    float: right;
+    width: 10%;
+}
+
+.project_img:hover {
+    width: 20%;
+}
+
+#header_container,
+#nav_container,
+#footer_container {
+    margin: auto;
+    width: 960px;
+    background: url(//subtlepatterns.com/patterns/tweed.png);
+
+}
+
+#content_container {
+    margin: auto;
+    width: 910px;
+    background-color: #e0e4cc;
+    padding-top: 1%;
+
+}
+
+header {
+    background-color: #e0e4cc;
+}
+
+nav {
+    background-color: #e0e4cc;
+    overflow: hidden;
+    width: 910px;
+    margin: 0 auto;
+}
+
+nav img {
+    padding-right: 5.4%;
+    height: 50px;
+}
+
+#content img {
+    margin: 0 auto;
+}
+
+footer {
+    background: url(//subtlepatterns.com/patterns/tweed.png);
+}
+
+/* ----- =columns ----- */
+
+.one_half {
+    width: 460px;
+}
+
+.one_third {
+    width: 300px;
+}
+
+.two_third {
+    width: 620px;
+}
+
+.one_fourth {
+    width: 220px;
+}
+
+.three_fourth {
+    width: 700px;
+}
+
+.full_column {
+    width: 940px;
+}
+
+.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .full_column {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.resetColumnSet {
+    clear: both;
+}
+
+/* ----- =menu (Primary Nav) ----- */
+
+#menu {
+    margin: 0 10px 0 0;
+}
+
+#menu li {
+    float: left;
+    list-style: none;
+}
+
+#menu li a {
+    font-size: 120%;
+    font-weight: bold;
+    color: #DEE1B6;
+    padding: 17px 25px 15px 25px;
+    display: block;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: #fff;
+    background: url(//subtlepatterns.com/patterns/tweed.png);
+}
+
+/*Borders between each button */
+#menu li + li {
+    border-left: 1px solid #000;
+}
+
+/*Borders on both sides */
+#menu li:first-child a {
+    border-left: 1px solid #000;
+}
+
+#menu li:last-child a {
+    border-right: 1px solid #000;
+}
+
+#my_result {
+    background-color: deeppink;
+    border: 5px solid black;
+}
+
+.project img {
+    height: 200px;
+    width: 350px;
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.project img:hover {
+    width: 700px;
+    height: 400px;
+}
+
+
+.company {
+    font-family: 'BenchNine', sans-serif;
+    width: 900px;
+    padding-left: 3%;
+    font-size: 2em;
+    line-height: 60px;
+}
+
+.company text {
+    vertical-align: middle;
+
+}
+
+.company img {
+    width: 80px;
+    padding-left: 3%;
+    vertical-align: top;
+}
+
+.company_1 {
+    font-family: 'BenchNine', sans-serif;
+    width: 900px;
+    padding-left: 3%;
+    font-size: 2em;
+    line-height: 60px;
+}
+
+.company_1 text {
+    vertical-align: middle;
+
+}
+
+.company_1 img {
+    width: 150px;
+    padding-left: 3%;
+    vertical-align: top;
+}
+
+.company_2 {
+    font-family: 'BenchNine', sans-serif;
+    width: 900px;
+    padding-left: 3%;
+    font-size: 2em;
+    line-height: 60px;
+}
+
+.company_2 text {
+    padding-left: 3%;
+
+}
+
+.company_2 img {
+    width: 200px;
+}
+
+.company_2 a {
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
+
+#location_jobs {
+    font-family: 'Rock Salt', cursive;
+    color: #2faaaf;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+#test {
+    margin-top: -7.5%;
+    margin-left: 25%;
+    font-size: 1em;
+}
