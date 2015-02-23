@@ -157,6 +157,7 @@ body {
     font-family: 'Prata', serif;
     width: 95%;
     margin: 0 auto;
+    margin-bottom: 45px;
     float: left;
     padding-left: 3%;
     font-size: 1.5em;
@@ -330,6 +331,11 @@ footer {
     vertical-align: top;
 }
 
+.company_welltok img {
+    width: 130px;
+    padding-left: 3%;
+    vertical-align: top;
+}
 .company_1 {
     font-family: 'BenchNine', sans-serif;
     width: 900px;
